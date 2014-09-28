@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<concrete5-cif version="1.0">
+	<blocktypes>
+		<blocktype handle="wp_page_list" package="rest_wordpress"/>
+	</blocktypes>
+	<singlepages>
+		<page name="Blog Post" path="/archives" filename="/archives.php" pagetype="" description="" package="rest_wordpress">
+			<attributes>
+				<attributekey handle="exclude_nav">
+					<value><![CDATA[1]]></value>
+				</attributekey>
+			</attributes>
+		</page>
+		<page name="WordPress Rest API" path="/dashboard/wp_rest_api" filename="/dashboard/wp_rest_api/view.php" pagetype="" description="" package="rest_wordpress"></page>
+		<page name="Settings" path="/dashboard/wp_rest_api/settings" filename="/dashboard/wp_rest_api/settings.php" pagetype="" description="" package="rest_wordpress"></page>
+		<page name="Authenticate" path="/dashboard/wp_rest_api/authentication" filename="/dashboard/wp_rest_api/authentication.php" pagetype="" description="" package="rest_wordpress"></page>
+	</singlepages>
+</concrete5-cif>
